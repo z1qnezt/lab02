@@ -2,8 +2,8 @@
 #include <string>
 
 int main(){
-    std::string name = ""; // созлание переменной
-    std::cin >> name; // считывание
-    std::cout << "Hello world from " << name; // вывод
+    std::string name = ""; // Созлание переменной.
+    std::cin >> name; // Считывание.
+    std::cout << "Hello world from " << name; // Вывод.
     return 0;
 }
