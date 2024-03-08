@@ -1,4 +1,4 @@
 ## Homework
-> Установка формата clang-format
-```shclang-format -style=mozilla -dump-config > .clang-format```
-```shclang-format -i *.cpp```
+- Установка формата clang-format
+   > ```clang-format -style=mozilla -dump-config > .clang-format```
+   > ```clang-format -i *.cpp```
