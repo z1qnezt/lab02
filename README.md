@@ -84,29 +84,25 @@
 9. В удалённый репозитории выполните  слияние PR `patch1 -> main` и удалите ветку `patch1` в удаленном репозитории.
    - Шаг выполнен
 10. Локально выполните **pull**.
-   - ```$ git pull origin patch1```
+    - ```$ git pull origin patch1```
 11. С помощью команды **git log** просмотрите историю в локальной версии ветки `main`.
-   - ```$ git log```
-   - Шаг выполнен
+    - ```$ git log```
+    - Шаг выполнен
 12. Удалите локальную ветку `patch1`.
-   - ```$ git branch -d patch1```
+    - ```$ git branch -d patch1```
 
 ### Part III
 
 1. Создайте новую локальную ветку `patch2`.
    - ```$ git branch patch1```
 2. Измените *code style* с помощью утилиты [**clang-format**](http://clang.llvm.org/docs/ClangFormat.html). Например, используя опцию `-style=Mozilla`.
-```
-   - $ clang-format -style=mozilla -dump-config > .clang-format
-   - $ clang-format -i *.cpp
-```
+   - ```$ clang-format -style=mozilla -dump-config > .clang-format```
+   - ```$ clang-format -i *.cpp```
 3. **commit**, **push**, создайте pull-request `patch2 -> main`.
-```
-   - $ git add .
-   - $ git commit -m"Update hello_world.cpp"
-   - $ git push origin patch2
+   - ```$ git add .```
+   - ```$ git commit -m"Update hello_world.cpp"```
+   - ```$ git push origin patch2```
    - PR создан
-```
 4. В ветке **main** в удаленном репозитории измените комментарии, например, расставьте знаки препинания, переведите комментарии на другой язык.
    ```
    #include <iostream>
