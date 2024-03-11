@@ -76,11 +76,9 @@
    }
    ```
 7. **commit**, **push**.
-   ```
-   - $ git add .
-   - $ git commit -m"EditHelloWorld+Username+Comments"
-   - $ git push origin patch1
-   ```
+   - ```$ git add .```
+   - ```$ git commit -m"EditHelloWorld+Username+Comments"```
+   - ```$ git push origin patch1```
 8. Проверьте, что новые изменения есть в созданном на **шаге 5** pull-request
    - Шаг выполнен
 9. В удалённый репозитории выполните  слияние PR `patch1 -> main` и удалите ветку `patch1` в удаленном репозитории.
