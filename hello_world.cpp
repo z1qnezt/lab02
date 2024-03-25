@@ -8,7 +8,6 @@ int main(){
     std::cout << "Hello world from " << name; // Вывод.
     return 0;
 =======
-using namespace std;
 
 int
 main()
@@ -19,4 +18,3 @@ main()
   return 0;
 >>>>>>> 2b4e68f (CLang)
 }
-
