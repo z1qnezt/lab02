@@ -3,12 +3,12 @@
 
 <<<<<<< HEAD
 int main(){
-    std::string name = ""; // Созлание переменной.
+    std::string name = ""; // Создание переменной.
     std::cin >> name; // Считывание.
     std::cout << "Hello world from " << name; // Вывод.
     return 0;
 =======
-
+    
 int
 main()
 {
