@@ -8,7 +8,6 @@ int main(){
     std::cout << "Hello world from " << name; // Вывод.
     return 0;
 =======
-using namespace std;
 
 int
 main()
