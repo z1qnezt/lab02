@@ -1,8 +1,8 @@
 #include <iostream>
 
 int main() {
-  std::string name = "";
-  std::cin >> name;
-  std::cout << "Hello world from " << name;
+  std::string name = ""; // name
+  std::cin >> name; // input
+  std::cout << "Hello world from " << name; // output
   return 0;
 }
