@@ -217,7 +217,7 @@ main()
     Could not apply 45cb76a... Clang
    ```
 ---
-    - ```$ git rebase --continue```
+   - ```$ git rebase --continue```
 ---
    ```
    [detached HEAD 45cb76a] mozilla codestyle rebase
