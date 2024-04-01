@@ -45,7 +45,7 @@
 11. Проверьте, что история коммитов доступна в удалёный репозитории.
    - ```$ git log``` или посмотреть на самом гитхабе историю коммитов
 ---
-      ```
+   ```
       commit 3fee8423885caaa11600132775bd66e3ad0d928d (HEAD -> main, origin/main, origin/HEAD)
       Author: z1qnezt <misha232dog@gmail.com>
       Date:   Mon Apr 1 16:22:15 2024 +0300
@@ -63,7 +63,7 @@
       Date:   Mon Apr 1 16:19:34 2024 +0300
 
     Initial commit
-      ```
+   ```
 ---
 
 ### Part II
